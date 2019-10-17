@@ -59,15 +59,20 @@
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
-				<version>2.0</version>
+				<version>2.3.3</version>
 				<configuration>
-					<deploymentType>cloudhub</deploymentType>
-					<muleVersion>3.7.2</muleVersion>
-					<username>venkatbangaru</username>
-					<password>Venkat@123</password>
-					<workerType>Micro</workerType>
-					<redeploy>true</redeploy>
-					<environment>Production</environment>
+					<cloudHubDeployment>
+						<uri>https://anypoint.mulesoft.com</uri>
+						<muleVersion>3.9.2</muleVersion>
+						<username>venkatbangaru</username>
+						<password>Venkat123</password>
+						<applicationName>maven-project-venkat-jms</applicationName>
+						<businessGroup>LnD</businessGroup>
+						<environment>DEV</environment>
+						<properties>
+							<key>value</key>
+						</properties>
+					</cloudHubDeployment>
 				</configuration>
 				<executions>
 					<execution>
