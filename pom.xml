@@ -4,7 +4,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.whishworks</groupId>
-	<artifactId>maven-project</artifactId>
+	<artifactId>maven-project-venkat-b</artifactId>
 	<version>1.0.0</version>
 	<packaging>mule</packaging>
 	<name>Mule maven-project Application</name>
